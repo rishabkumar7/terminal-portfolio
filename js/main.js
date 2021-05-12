@@ -5,7 +5,7 @@ const aboutContent = document.querySelector('#about-content')
 const contactContent = document.querySelector('#contact-content')
 //const blogContent = document.querySelector('#blog-content')
 
-bout.addEventListener('click', () => {
+about.addEventListener('click', () => {
   const aboutBox = new WinBox({
     title: 'About Me',
     // modal: true,
