@@ -1,9 +1,9 @@
 const about = document.querySelector('#about')
 const contact = document.querySelector('#contact')
-//const blog = document / querySelector('#blog')
+const blog = document.querySelector('#blog')
 const aboutContent = document.querySelector('#about-content')
 const contactContent = document.querySelector('#contact-content')
-//const blogContent = document.querySelector('#blog-content')
+const blogContent = document.querySelector('#blog-content')
 
 about.addEventListener('click', () => {
   const aboutBox = new WinBox({
@@ -45,8 +45,8 @@ contact.addEventListener('click', () => {
   })
 })
 
-/*
-blogContent.addEventListener('click', () => {
+
+blog.addEventListener('click', () => {
   const blogBox = new WinBox({
     title: 'Blogs',
     background: '#00aa00',
@@ -65,4 +65,5 @@ blogContent.addEventListener('click', () => {
     },
   })
 })
-*/
+
+//Reading RSS feed for blogs

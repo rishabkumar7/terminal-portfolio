@@ -10,12 +10,12 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class=" container">
     <nav>
       <ul>
         <li id="about">/about</li>
         <li id="contact">/contact</li>
-        <!--<li id="blog">/blog </li> -->
+        <li id="blog">/blog </li>
       </ul>
     </nav>
 
@@ -36,6 +36,14 @@
           <a href="https://github.com/rishabkumar7" target="_blank">Github</a>
         </li>
       </ul>
+      <h1>RSS Reader (JavaScript)</h1>
+      <output>Loading...</output>
+      <template>
+        <h2></h2>
+        <h3></h3>
+        <a href='#'></a>
+        <p></p>
+      </template>
     </main>
   </div>
 
@@ -59,11 +67,13 @@
     <div id="blog-content">
       <h2>blog:$<span class="cursor">|</span></h2>
       <p>Blogs</p>
+      <div id="feed"></div>
     </div>
   </div>
 
   <script src="js/winbox.bundle.js"></script>
   <script src="js/main.js"></script>
+  <script src='js/rss.js' defer></script>
 </body>
 
 </html>
